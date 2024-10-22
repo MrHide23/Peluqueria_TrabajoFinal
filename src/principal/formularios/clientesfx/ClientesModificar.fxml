@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="476.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.controladores.clientes.ModificarCliente">
+   <children>
+      <Label layoutX="105.0" layoutY="28.0" text="Modificar Cliente">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="166.0" text="DNI:" />
+      <Button fx:id="btnModificar" layoutX="114.0" layoutY="404.0" mnemonicParsing="false" onMouseClicked="#modificarCliente" prefHeight="39.0" prefWidth="211.0" text="Modificar" />
+      <TextField fx:id="txtDniViejo" layoutX="120.0" layoutY="121.0" prefHeight="25.0" prefWidth="199.0" />
+      <Label layoutX="45.0" layoutY="208.0" text="Nombre:" />
+      <Label layoutX="45.0" layoutY="252.0" text="Apellido:" />
+      <Label layoutX="45.0" layoutY="289.0" text="Telefono:" />
+      <Label layoutX="54.0" layoutY="332.0" text="Email:" />
+      <Label layoutX="35.0" layoutY="125.0" text="DNI viejo:" />
+      <TextField fx:id="txtDniNuevo" layoutX="120.0" layoutY="162.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="txtNombre" layoutX="120.0" layoutY="204.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="txtApellido" layoutX="120.0" layoutY="248.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="txtTelefono" layoutX="120.0" layoutY="285.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="txtEmail" layoutX="120.0" layoutY="328.0" prefHeight="25.0" prefWidth="199.0" />
+   </children>
+</AnchorPane>

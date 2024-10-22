@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="318.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.controladores.citas.EliminarCita">
+   <children>
+      <Button fx:id="btnEliminar" layoutX="67.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#EliminarlaCita" prefHeight="40.0" prefWidth="167.0" text="Eliminar" />
+      <Label layoutX="14.0" layoutY="110.0" text="Numero Cita:" />
+      <Label layoutX="63.0" layoutY="14.0" text="Eliminar Cita">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="191.0" text="Estado:" />
+      <RadioButton fx:id="rbCompleta" layoutX="100.0" layoutY="191.0" mnemonicParsing="false" text="completa" />
+      <RadioButton fx:id="rbCancelada" layoutX="184.0" layoutY="191.0" mnemonicParsing="false" text="cancelada" />
+      <TextField fx:id="txtCodigoCita" layoutX="100.0" layoutY="106.0" prefHeight="25.0" prefWidth="157.0" />
+   </children>
+</AnchorPane>
